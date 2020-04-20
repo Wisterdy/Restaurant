@@ -1,0 +1,166 @@
+
+
+@font-face {
+font-family: 'Glyphicons Halflings';
+src: url('https://netdna.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halflings-regular.eot');  src: url('https://netdna.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('https://netdna.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halflings-regular.woff') format('woff'), url('https://netdna.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('https://netdna.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+}
+
+
+body
+{
+	background-color: red;
+}
+
+nav
+{
+	background-color: black;
+	margin-bottom: 10px;
+}
+
+.container
+{
+  
+	background-color: red;
+}
+
+.space
+{
+  margin-top:5px;
+  margin-bottom: 5px;
+}
+
+ul li
+{
+    
+    display:inline;
+
+}
+
+.test
+{
+	background-color: white;
+}
+
+.test p
+{
+	padding-right:5px;
+	padding-left:5px;
+}
+.test button
+{
+  background-color: purple;
+  margin:0 auto;
+  display: block;
+  
+
+}
+.test img
+{
+	width: 100%;
+}
+.mycarousel
+{
+ /*background-color: blue;*/
+}
+.item
+{
+   
+	width: 100%;
+   
+}
+.rightarrow
+{
+	position:sticky;
+border: 2px solid white;
+  margin-right:10px;
+  float:right;
+  margin-top:100px;
+}
+
+.leftarrow
+{
+	position: sticky;
+border: 2px solid white;
+  margin-left:10px;
+  float:left;
+  margin-top:100px;
+}
+
+/*Glyphicons not working with boostrap 4 work with 3 so therefore I created my own carousel version*/
+/*carousel not perfect as I wanted*/
+/*attemped to remove the arrows for mobile and make the carousel change automatically with mouseover
+
+@media only screen and (max-width: 600px) 
+{
+  
+  .rightarrow
+  {
+    display: none;
+  }
+  .leftarrow
+  {
+    display: none;
+  }
+  .mobile
+	{
+ 		display:inline;
+ 		background-color: blue;
+	}
+ .other
+ {
+ 	display: none;
+ }
+
+}
+
+*/
+/*class for the themes of structures of chefs rating and info*/
+
+.chefs
+{
+ margin-top:5px;
+ margin-bottom: 2px;
+ padding-top: 50px;
+}
+.chefs h1
+{
+ background-color: white;
+}
+.contact
+{
+	margin-top: 5px;
+	background-color: blue;
+}
+.contact h2
+{
+	text-align: center;
+}
+.row
+{
+	margin-top:2px !important;
+}
+.chefs span
+{
+	margin-left: 5px;
+}
+.checked
+{
+	background-color: yellow;
+	padding-left:5px;
+
+}
+.footer
+{
+	margin-top: 150px;
+	height: 50px;
+	background-color: black;
+}
+.footer
+{
+	text-align: center;
+	color:white;
+}
+.test:hover
+{
+ background-color:#79dbf7;
+}
